@@ -74,23 +74,23 @@ nav.appendChild(link2);
 navItem = document.querySelectorAll("a");
 
 
-document.querySelectorAll('a');
-navItem[0].style.color = "green";
-navItem[1].style.color = "green";
-navItem[2].style.color = "green";
-navItem[3].style.color = "green";
-navItem[4].style.color = "green";
-navItem[5].style.color = "green";
-navItem[6].style.color = "green";
-navItem[7].style.color = "green";
+// document.querySelectorAll('a');
+// navItem[0].style.color = "green";
+// navItem[1].style.color = "green";
+// navItem[2].style.color = "green";
+// navItem[3].style.color = "green";
+// navItem[4].style.color = "green";
+// navItem[5].style.color = "green";
+// navItem[6].style.color = "green";
+// navItem[7].style.color = "green";
 
 
-//quicker way is .forEach
+//quicker way is .forEach only usable with arrays or queryselector all
 
-//  let green= document.querySelectorAll('a');
-//  green.forEach(aGreen =>{
-//     aGreen = style.color ="green"
-//  }); 
+ let green = document.querySelectorAll('a');
+ green.forEach(aGreen =>{
+    aGreen.style.color = "green"
+ }); 
 
 
 document.getElementById("cta-img").src = siteContent.cta["img-src"];
